@@ -1,0 +1,14 @@
+{
+  "request_id": "appr_release_1786892382196",
+  "node_id": "release",
+  "run_id": "run_20e165ec96",
+  "summary": "Approval required for high-impact stage 'release'",
+  "payload": {
+    "stage": "release"
+  },
+  "status": "rejected",
+  "decided_by": "reviewer@example.com",
+  "decision_reason": "not ready",
+  "created_at": 1786892382.1968615,
+  "decided_at": 1786892382.1973495
+}

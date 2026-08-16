@@ -1,0 +1,14 @@
+{
+  "request_id": "appr_release_1786892193327",
+  "node_id": "release",
+  "run_id": "run_3e8475e0ad",
+  "summary": "Approval required for high-impact stage 'release'",
+  "payload": {
+    "stage": "release"
+  },
+  "status": "approved",
+  "decided_by": "auto-reviewer",
+  "decision_reason": "auto-approved for CI run",
+  "created_at": 1786892193.3275845,
+  "decided_at": 1786892193.3277287
+}
