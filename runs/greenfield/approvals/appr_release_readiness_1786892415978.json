@@ -1,0 +1,14 @@
+{
+  "request_id": "appr_release_readiness_1786892415978",
+  "node_id": "release_readiness",
+  "run_id": "greenfield-001",
+  "summary": "release_readiness for scenario 'greenfield'\nAmbiguous terms: reliability (no measurable SLO given (e.g. target availability, error rate, or latency bound))\nProposed assumptions: reliability -> Interpreted as: redirect path stays correct under expired/deactivated/missing links (proper 404/410 responses) and absorbs read traffic via a TTL cache; no formal SLA target was given so none is claimed.\nImpacted modules: app/*.py (all modules)\nPlanned tasks (1): T1-scaffold",
+  "payload": {
+    "stage": "release"
+  },
+  "status": "approved",
+  "decided_by": "jay (engineering lead)",
+  "decision_reason": "Release checklist satisfied: tests pass, policy scan clean, docs generated.",
+  "created_at": 1786892415.9786122,
+  "decided_at": 1786892415.9797566
+}
