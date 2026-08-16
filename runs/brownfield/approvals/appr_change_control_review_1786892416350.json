@@ -1,0 +1,14 @@
+{
+  "request_id": "appr_change_control_review_1786892416350",
+  "node_id": "change_control_review",
+  "run_id": "brownfield-001",
+  "summary": "change_control_review for scenario 'brownfield'\nImpacted modules: app/config.py, app/main.py, app/shortener.py\nPlanned tasks (2): T1-fix-race, T2-bulk",
+  "payload": {
+    "stage": "requirements"
+  },
+  "status": "approved",
+  "decided_by": "jay (engineering lead)",
+  "decision_reason": "Impacted modules confirmed (app/shortener.py, app/main.py, app/config.py); scope matches the two reported issues, approved to proceed to design.",
+  "created_at": 1786892416.3500597,
+  "decided_at": 1786892416.3507514
+}

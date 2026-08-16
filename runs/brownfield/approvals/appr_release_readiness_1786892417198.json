@@ -1,0 +1,14 @@
+{
+  "request_id": "appr_release_readiness_1786892417198",
+  "node_id": "release_readiness",
+  "run_id": "brownfield-001",
+  "summary": "release_readiness for scenario 'brownfield'\nImpacted modules: app/config.py, app/main.py, app/shortener.py\nPlanned tasks (2): T1-fix-race, T2-bulk",
+  "payload": {
+    "stage": "release"
+  },
+  "status": "approved",
+  "decided_by": "jay (engineering lead)",
+  "decision_reason": "Release checklist satisfied: tests pass (incl. new regression test), policy scan clean.",
+  "created_at": 1786892417.1986957,
+  "decided_at": 1786892417.1998239
+}
