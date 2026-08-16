@@ -1,1 +1,1 @@
-
+"""URL Shortener service package."""
